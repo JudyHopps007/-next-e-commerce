@@ -14,6 +14,7 @@ import { useAuth } from "../firebase/context";
 export default function Home() {
   const auth = useAuth();
 
+  
   return (
     <Layout>
       <div className={styles.container}>
